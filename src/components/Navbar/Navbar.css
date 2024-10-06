@@ -1,0 +1,25 @@
+.navbar {
+    width: 100vw;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    display: flex;
+  }
+  
+  .navbar-menu {
+    list-style-type: none;
+    display: flex;
+    gap: 100px;
+  }
+  
+  .navbar-menu li {
+    cursor: pointer;
+    padding: 0;
+    color: white;
+  }
+  
+  .navbar-menu li.active {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
