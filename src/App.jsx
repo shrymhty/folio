@@ -12,10 +12,6 @@ const App = () => {
   return (
     <div>
       <Navbar />
-        <Header/>
-        <About/>
-        <Work/>
-        <Contact/>
     </div>
   );
 };
